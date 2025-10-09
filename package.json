@@ -1,8 +1,8 @@
 {
   // Project metadata
-  "name": "collateralvault",
+  "name": "CollateralVault",
   "version": "1.0.0",
-  "description": "CollateralVault - A TypeScript implementation",
+  "description": "A TypeScript implementation of CollateralVault",
   "main": "dist/index.js",
   "author": "mpermar082",
   "license": "MIT",
@@ -23,16 +23,23 @@
 
   // Project dependencies
   "dependencies": {
-    "minimist": "^1.2.0" // CLI parser library
+    // CLI parser library
+    "minimist": "^1.2.0"
   },
 
   // Development dependencies
   "devDependencies": {
-    "typescript": "^5.0.0", // TypeScript compiler
-    "@types/node": "^18.0.0", // TypeScript definitions for Node.js
-    "@types/minimist": "^1.2.0", // TypeScript definitions for minimist
-    "ts-node": "^10.0.0", // TypeScript execution environment for Node.js
-    "jest": "^29.0.0", // Unit testing framework
-    "@types/jest": "^29.0.0" // TypeScript definitions for Jest
+    // TypeScript compiler
+    "typescript": "^5.0.0",
+    // TypeScript definitions for Node.js
+    "@types/node": "^18.0.0",
+    // TypeScript definitions for minimist
+    "@types/minimist": "^1.2.0",
+    // TypeScript execution environment for Node.js
+    "ts-node": "^10.0.0",
+    // Unit testing framework
+    "jest": "^29.0.0",
+    // TypeScript definitions for Jest
+    "@types/jest": "^29.0.0"
   }
 }
